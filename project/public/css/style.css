@@ -1,0 +1,127 @@
+@font-face {
+    font-family: MyFont;
+    src: url(Raleway/Raleway-Variable.ttf);
+    
+}
+
+body{
+  background-color: beige;
+  margin:0px;
+  padding: 0px;
+  font-family: MyFont;
+  
+}
+
+#search-bar{
+  text-align:center;
+}
+
+h1{
+	margin-top: 4em;
+	text-align: center;
+}
+
+#search-box{
+	width:250px;
+	padding:0.8rem;
+	margin-bottom: 8px;
+
+}
+
+.search-box{
+	width:250px;
+	padding:0.8rem;
+	margin-bottom: 8px;
+}
+
+input[type=submit]{
+	height: 3.3em;
+	cursor: pointer;
+}
+
+div{
+	text-align:center;
+	letter-spacing: 1px;
+	margin:5px;
+}
+
+button{
+  	box-shadow: -5px 6px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+  	border:none;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:12px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	margin-bottom: 10px;
+	margin-left:10px;
+	
+	
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+
+#nav-bar{
+	
+	padding:2px;
+	background-color: #3d768a;
+	
+}
+
+#nav-links{
+	display: flex;
+	
+	justify-content: space-evenly;
+	align-items: center;
+	padding:30px 10%;
+	list-style: none;
+	
+}
+a:hover{
+	color:#af96d8;
+}
+
+a{
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-size:20px;
+	font-weight: bold;
+	color:#ffffff;
+	
+}
+
+.edit{
+	width:30px;
+	height:30px;
+	margin-left: 4px;
+}
+
+#fave-list{
+	margin-bottom: 30px;
+}
+
+footer{
+	position: absolute;
+	left: 0; 
+	right: 0;
+	text-align: center;
+	
+	
+}
+
+p{
+	text-align: center;
+}
+
+#comment{
+	height: 100px;
+}
